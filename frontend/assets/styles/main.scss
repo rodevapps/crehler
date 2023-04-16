@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap";
+
+.input-box {
+  position: relative;
+
+  span {
+    position: absolute;
+    right: 13px;
+    top: 7px;
+    cursor: pointer;
+    transform: rotate(90deg);
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 31%;
+}
+
+.my-10 {
+  margin-top: 52pt;
+  margin-bottom: 60pt;
+}
